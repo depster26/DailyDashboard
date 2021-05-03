@@ -1,0 +1,83 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 0.85rem;
+  background-color: #0d1118;
+  color: #f7f7f7;
+  padding: 20px 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #dcdcdc;
+}
+
+.stat-large {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+.stat-small {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.current-condition {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.hourly-forecast-item {
+  margin: 0 8px;
+}
+
+.hourly-forecast-item p {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+#calendars .time {
+  width: 60px;
+}
+
+#calendars {
+  font-size: 0.9rem;
+}
+
+.calendar-event {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+span.event-time {
+  padding-right: 10px;
+  color: #da961d;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.scrolling-weather-panel {
+  overflow: auto;
+  white-space: nowrap;
+}
